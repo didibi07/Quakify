@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EARTHQUAKE PREDICTOR</title>
+    <link rel="stylesheet" href="stylish.css">
+</head>
+<body>
+    <header>
+        <h1>Quakify</h1>
+        <nav>
+            
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section class="photo-section">
+            <img src="https://cdn.dribbble.com/users/2128000/screenshots/4505241/cute-earth-day-illustration.gif" alt="Image 1">
+            <div class="flyer">
+                <p class="rotate">WE GIVE 90% ACCURACY ON OUR PREDICTIONS</p>
+            </div>
+            <section class="search-section">
+                <form action="#">
+                    <label>To know your results click below</label>
+                    <button type="button" onclick="openLink()">GET YOUR PREDICTION</button>
+                </form>
+            </section>
+        </section>
+        <div class="destination-row">
+            <div class="destination-item">
+                <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0267726122003529-gr2.jpg" alt="india map" style="width:100%">
+                
+            </div>
+        
+            <div class="destination-item">
+                <img src="https://pub.mdpi-res.com/sensors/sensors-20-04369/article_deploy/html/images/sensors-20-04369-g010.png?1596766250" alt="graph" style="width:100%">
+                
+            </div>
+        </div>
+        <section class="about-section" id = "about">
+            <h2>About Quakify</h2>
+            <p>Quakify is a cutting-edge earthquake predictor utilizing advanced algorithms and real-time data analysis to forecast seismic activity with high accuracy.
+                "Quakify: Revolutionizing Earthquake Prediction with Machine Learning"
+                
+                In a world where natural disasters can strike without warning, the ability to predict earthquakes with precision becomes not just a scientific endeavor but a matter of global safety. Enter Quakify, a cutting-edge website leveraging the power of machine learning (ML) to forecast earthquakes based on latitude and longitude coordinates.
+                
+                Quakify stands at the intersection of technology and seismology, offering a beacon of hope in the face of uncertainty. With use of ML models, there's a newfound ability to analyze vast amounts of complex data in real-time, leading to more accurate predictions.
+                
+                At its core, Quakify employs sophisticated ML algorithms trained on seismic activity data from around the world. By feeding these algorithms with latitude and longitude coordinates, Quakify can generate predictive models tailored to specific geographic regions, accounting for geological differences and historical seismic patterns</p>
+        </section>
+      
+        <div class="contact-container"id="contact">
+            <h2>Contact</h2>
+            <i class="fa fa-map-marker"></i> New Delhi, India<br>
+            <i class="fa fa-phone"></i> Phone: +00 151515<br>
+            <i class="fa fa-envelope"></i> Email: mail@mail.com<br>
+            <br></br>
+            <img src="https://c4.wallpaperflare.com/wallpaper/51/1006/576/the-wreckage-the-city-death-element-wallpaper-preview.jpg" alt="earthquake"style = "width:100%">
+        </div>
+    </main>
+    <script>
+        function openLink() {
+            window.open("https://earthquake-n6pnlgtecjy45gch2cfxuj.streamlit.app/"); 
+        }
+    </script>
+</body>
+</html>
